@@ -1,0 +1,182 @@
+body {
+    background-color: #e1f2ff;
+}
+
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top, #f9f9f9 0, #b8b8b8 100%);
+    background-image: -o-linear-gradient(top,#f9f9f9 0,#b8b8b8 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#b8b8b8));
+    background-image: linear-gradient(to bottom,#f9f9f9 0,#b8b8b8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#b8b8b8', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: white;
+}
+
+.menu-item {
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 5px solid transparent;
+
+}
+
+.menu-item:hover{
+    border: 5px solid rgba(255, 255, 255, 0.70);
+}
+
+.menu-item a {
+    color: #fff;
+    display: block;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.menu-item a p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.menu-item a i {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.menu-item:hover a {
+    text-decoration: none;
+}
+
+/**** Start Background Color ****/
+
+.blue {
+    background: #28ABE3;
+}
+
+.green {
+    background: #72bf48;
+}
+
+.red {
+    background: #FF432E;
+}
+
+.light-red {
+    background: #FB6648;
+}
+
+.light-orange {
+    background: #FA6900;
+}
+
+.color {
+    background: #0ECEAB;
+}
+
+.purple{
+    background: #9b59b6;
+}
+
+.grey{
+    background: #888987;
+}
+
+.glyphicon-sort{
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.glyphicon {
+    opacity: 0.4;
+    font-size: 50px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+.menu-item:hover .glyphicon{
+    opacity: 1;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #713fa4;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-secondary > .panel-heading{
+    background-image: -webkit-linear-gradient(top, #725eb7 0, #713fa4 100%);
+    background-image: -o-linear-gradient(top, #725eb7 0, #713fa4 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#725eb7),to(#713fa4));
+    background-image: linear-gradient(to bottom,#725eb7 0,#713fa4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#725eb7', endColorstr='#713fa4', GradientType=0);
+    background-repeat: repeat-x;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+    .bs-glyphicons {
+        margin-right: 0;
+        margin-left: 0;
+    }
+.bs-glyphicons {
+    margin: 0 -10px 20px;
+    overflow: hidden;
+}
+.bs-glyphicons-list {
+    padding-left: 0;
+    list-style: none;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.bs-glyphicons li {
+    width: 12.5%;
+    font-size: 12px;
+}
+.bs-glyphicons li {
+    float: left;
+    width: 25%;
+    height: 115px;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #fff;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+li:hover{
+    backgroud-color: #725eb7;
+}
